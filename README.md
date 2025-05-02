@@ -56,7 +56,6 @@ Veriler `currencies.json` dosyasından yüklenmektedir. Örnek yapı:
   }
 ]
 
----
 
 ## 🛠 Kurulum
 
@@ -69,16 +68,16 @@ cd DovizListesiApp
 open "Döviz Listesi.xcodeproj"
 ---
 
-Proje Yapısı:
+## 📁 Proje Yapısı
 
 DovizListesiApp/
-├── Döviz Listesi.xcodeproj     # Xcode proje dosyası
-├── Assets/                     # Uygulama görselleri ve varlıkları
-├── Models/                     # Veri modelleri (CurrencyModel.swift vb.)
-├── Views/                      # Arayüz bileşenleri (anasayfa, detay, favoriler)
-├── Controllers/                # Görünümleri yöneten view controller dosyaları
-├── ScreenShots/                # Uygulama ekran görüntüleri (README için)
-└── README.md                   # Proje açıklaması ve belgeleri
+├── Döviz Listesi.xcodeproj             # Xcode proje dosyası
+├── Assets/                             # Uygulama görselleri ve varlıkları
+├── Models/                             # Veri modelleri (CurrencyModel.swift vb.)
+├── Views/                              # Arayüz bileşenleri (anasayfa, detay, favoriler)
+├── Controllers/                        # Görünümleri yöneten view controller dosyaları
+├── ScreenShots/                        # Uygulama ekran görüntüleri (README için)
+└── README.md                           # Proje açıklaması ve belgeleri
 
 
 
