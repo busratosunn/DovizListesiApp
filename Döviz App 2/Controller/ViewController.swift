@@ -9,18 +9,15 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
-    
     @IBOutlet weak var priceSortImage: UIImageView!
     @IBOutlet weak var priceLabel: UILabel!
     
     var isSorting = true
-    
-    var currencies: [Currency] = []
+        var currencies: [Currency] = []
 
 
     override func viewDidLoad() { // view yüklendiğinde çalışacak kod bloğu.
         super.viewDidLoad()
-        
         currencies = loadCurriencies()
         tableView.reloadData()
 
