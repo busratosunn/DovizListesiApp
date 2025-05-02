@@ -63,12 +63,16 @@ Veriler `currencies.json` dosyasından yüklenmektedir. Örnek yapı:
 Projeyi çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
 
 ### 🔽 Reponun klonlanması
+
 ```bash
 git clone https://github.com/busratosunn/DovizListesiApp.git
 cd DovizListesiApp
 open "Döviz Listesi.xcodeproj"
 
 ---
+
+Proje Yapısı:
+
 DovizListesiApp/
 ├── Döviz Listesi.xcodeproj     # Xcode proje dosyası
 ├── Assets/                     # Uygulama görselleri ve varlıkları
@@ -77,5 +81,8 @@ DovizListesiApp/
 ├── Controllers/                # Görünümleri yöneten view controller dosyaları
 ├── ScreenShots/                # Uygulama ekran görüntüleri (README için)
 └── README.md                   # Proje açıklaması ve belgeleri
+css
+Kopyala
+Düzenle
 
 
