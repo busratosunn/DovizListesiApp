@@ -17,18 +17,22 @@ iOS platformu için Swift ile geliştirilen döviz uygulamasıdır. Kullanıcıl
 
 ## 🖼 Ekran Görüntüleri
 
-### Ana Sayfa
-![Ana Sayfa](ScreenShots/anasayfa.png)
+### Launch Ekranı
+<img src="ScreenShots/launch.png" alt="Launch" width="250"/>
 
-### Detay Sayfası
-![Detay 1](ScreenShots/detay1.png)
-![Detay 2](ScreenShots/detay2.png)
+### Ana Sayfa
+<img src="ScreenShots/anasayfa.png" alt="Ana Sayfa" width="250"/>  
 
 ### Favoriler
-![Favoriler](ScreenShots/favoriler.png)
+<img src="ScreenShots/favoriler.png" alt="Favoriler" width="250"/> 
 
-### Launch Ekranı
-![Launch](ScreenShots/launch.png)
+### Detay Sayfası
+<table>
+  <tr>
+    <td><img src="ScreenShots/detay1.png" alt="Detay 1" width="250"/></td>
+    <td><img src="ScreenShots/detay2.png" alt="Detay 2" width="250"/></td>
+  </tr>
+</table>
 
 ---
 
@@ -55,7 +59,7 @@ Veriler `currencies.json` dosyasından yüklenmektedir. Örnek yapı:
     "isFavorite": false
   }
 ]
-
+```
 
 ## 🛠 Kurulum
 
@@ -66,18 +70,18 @@ Projeyi çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
 git clone https://github.com/busratosunn/DovizListesiApp.git
 cd DovizListesiApp
 open "Döviz Listesi.xcodeproj"
+
 ---
 
 ## 📁 Proje Yapısı
 
+```
 DovizListesiApp/
-├── Döviz Listesi.xcodeproj             # Xcode proje dosyası
-├── Assets/                             # Uygulama görselleri ve varlıkları
-├── Models/                             # Veri modelleri (CurrencyModel.swift vb.)
-├── Views/                              # Arayüz bileşenleri (anasayfa, detay, favoriler)
-├── Controllers/                        # Görünümleri yöneten view controller dosyaları
-├── ScreenShots/                        # Uygulama ekran görüntüleri (README için)
-└── README.md                           # Proje açıklaması ve belgeleri
-
-
-
+├── Döviz Listesi.xcodeproj         # Xcode proje dosyası
+├── Assets/                         # Uygulama görselleri ve varlıkları
+├── Models/                         # Veri modelleri (CurrencyModel.swift vb.)
+├── Views/                          # Arayüz bileşenleri (anasayfa, detay, favoriler)
+├── Controllers/                    # Görünümleri yöneten view controller dosyaları
+├── ScreenShots/                    # Uygulama ekran görüntüleri (README için)
+└── README.md                       # Proje açıklaması ve belgeleri
+```
