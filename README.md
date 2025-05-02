@@ -1,4 +1,4 @@
-# DovizListesiApp
+# DövizListesiApp
 iOS platformu için Swift ile geliştirilen döviz uygulamasıdır. Kullanıcılar döviz kurlarını listeleyebilir, filtreleyebilir, sıralayabilir ve favorilerine ekleyebilir. Her döviz birimi için detay sayfası bulunmaktadır. Bu proje, Flo Teknoloji'de iOS App Developer olarak gerçekleştirdiğim staj sürecinde geliştirilmiştir.
 
 ---
@@ -25,7 +25,7 @@ iOS platformu için Swift ile geliştirilen döviz uygulamasıdır. Kullanıcıl
 ![Detay 2](ScreenShots/detay2.png)
 
 ### Favoriler
-![Favoriler](ScreenShots/favoriler.jpg)
+![Favoriler](ScreenShots/favoriler.png)
 
 ### Launch Ekranı
 ![Launch](ScreenShots/launch.png)
@@ -58,25 +58,24 @@ Veriler `currencies.json` dosyasından yüklenmektedir. Örnek yapı:
 
 ---
 
+## 🛠 Kurulum
+
 Projeyi çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
 
-# Reponun klonlanması
+### 🔽 Reponun klonlanması
+```bash
 git clone https://github.com/busratosunn/DovizListesiApp.git
-
-# Proje klasörüne geçiş
 cd DovizListesiApp
-
-# Xcode projesini açma
 open "Döviz Listesi.xcodeproj"
 
 ---
 DovizListesiApp/
-├── Döviz Listesi.xcodeproj       # Xcode proje dosyası
-├── Assets/                       # Uygulama görselleri ve varlıkları
-├── Models/                       # Veri modelleri (CurrencyModel.swift vb.)
-├── Views/                        # Arayüz bileşenleri (anasayfa, detay, favoriler)
-├── Controllers/                  # Görünümleri yöneten view controller dosyaları
-├── ScreenShots/                  # Uygulama ekran görüntüleri (README için)
-└── README.md                     # Proje açıklaması ve belgeleri
+├── Döviz Listesi.xcodeproj     # Xcode proje dosyası
+├── Assets/                     # Uygulama görselleri ve varlıkları
+├── Models/                     # Veri modelleri (CurrencyModel.swift vb.)
+├── Views/                      # Arayüz bileşenleri (anasayfa, detay, favoriler)
+├── Controllers/                # Görünümleri yöneten view controller dosyaları
+├── ScreenShots/                # Uygulama ekran görüntüleri (README için)
+└── README.md                   # Proje açıklaması ve belgeleri
 
 
