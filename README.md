@@ -8,7 +8,6 @@ iOS platformu için Swift ile geliştirilen döviz uygulamasıdır. Kullanıcıl
 - 📈 Günlük artış/azalışa göre filtreleme
 - ⭐ Para birimlerini favorilere ekleyip çıkarma
 - 📊 Dövizlerin adı, logosu ve değişim yüzdesi gösterimi
-- 🧾 Detay sayfasında para birimi hakkında geniş bilgi
 - 📁 JSON dosyasından gelen statik veri
 - 🔄 Basit ve sade kullanıcı arayüzü
 - 🔽 Tab Bar ile Anasayfa ve Favoriler arası geçiş
